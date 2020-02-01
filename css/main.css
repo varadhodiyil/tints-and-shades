@@ -179,11 +179,19 @@ code {
 }
 
 td.hex-color {
-	height: 6.5rem;
+	/* height: 6.5rem;
 	min-width: 6.5rem;
 	cursor: pointer;
 	position: relative;
-	outline: 0;
+	outline: 0; */
+	width: 50px;
+    height: 50px;
+    border: 1px solid #333;
+    /* border-radius: 3px; */
+    margin: 4px;
+    cursor: pointer;
+	position: relative;
+	/* padding: 4px; */
 }
 
 td.hex-color:before {
@@ -254,6 +262,8 @@ td.hex-value {
 	padding: 0.5rem 0 2.5rem;
 	text-transform: lowercase;
 	cursor: default;
+	color: #fff;
+	text-align: right;
 }
 
 .ts-documentation {
@@ -371,4 +381,8 @@ td.hex-value {
 		font-size: 3.6rem;
 		padding: 1.5rem;
 	}
+}
+table{
+	border-spacing: 4px;
+    border-collapse: separate !important;
 }
